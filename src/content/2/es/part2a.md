@@ -205,8 +205,8 @@ const App = (props) => {
 Aunque la aplicación parece estar funcionando, hay una advertencia desagradable en la consola 
 
 ![](../../images/2/1a.png)
-
-Como la [página](https://reactjs.org/docs/lists-and-keys.html#keys) vinculada en el mensaje de error instruye, los elementos de la lista, es decir, los elementos generados por el método _map_, deben tener cada uno una clave única valor: un atributo llamado <i>key</i>.
+  
+Como sugiere la [página](https://reactjs.org/docs/lists-and-keys.html#keys) de React enlazada en el mensaje de error; los elementos de la lista, es decir, los elementos generados por el método _map_, deben tener cada uno una clave con valor único: un atributo llamado <i>key</i>.
 
 Agreguemos las keys (claves):
 
